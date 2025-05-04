@@ -4,7 +4,6 @@ const TwitterFeed = () => {
   const containerRef = useRef(null);
 
   useEffect(() => {
-    // Clean existing widgets if present
     if (window.twttr && window.twttr.widgets) {
       window.twttr.widgets.load(containerRef.current);
     } else {
@@ -22,7 +21,7 @@ const TwitterFeed = () => {
 
   return (
     <div>
-      <h2>Latest from X (Twitter)</h2>
+      <h2><i className="fab fa-x-twitter" style={{ marginRight: '0.5rem', color: '#1da1f2' }}></i>Latest from X (Twitter)</h2>
       <div ref={containerRef}>
         <a
           className="twitter-timeline"

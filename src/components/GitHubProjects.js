@@ -12,11 +12,11 @@ const GitHubProjects = () => {
 
   return (
     <>
-      <h2>GitHub Projects</h2>
+      <h2><i className="fab fa-github" style={{ marginRight: '0.5rem', color: '#fff' }}></i>GitHub Projects</h2>
       <ul style={{ listStyle: 'none', padding: 0 }}>
         {repos.map(repo => (
           <li key={repo.id} style={{ marginBottom: '1rem' }}>
-            <a href={repo.html_url} target="_blank" rel="noreferrer">
+            <a href={repo.html_url} target="_blank" rel="noreferrer" style={{ color: '#1da1f2' }}>
               <strong>{repo.name}</strong>: {repo.description || 'No description'}
             </a>
           </li>
