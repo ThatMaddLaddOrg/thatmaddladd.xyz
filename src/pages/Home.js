@@ -16,7 +16,7 @@ const Home = () => {
   };
 
   return (
-    <div style={{ maxWidth: '1000px', margin: '0 auto', padding: '2rem' }}>
+    <div style={{ maxWidth: '1500px', margin: '0 auto', padding: '2rem' }}>
       <Header />
       <section style={sectionStyle}>
         <TwitchEmbed />
