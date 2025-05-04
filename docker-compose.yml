@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    build: .
+    build: website
     ports:
       - "80:80"
     container_name: thatmaddladd.xyz
