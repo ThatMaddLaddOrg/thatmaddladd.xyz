@@ -6,8 +6,6 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import { AnimatePresence } from 'framer-motion';
 
 import Home from './pages/Home';
-import About from './pages/About';
-import Projects from './pages/Projects';
 import CursorTrail from './components/CursorTrail';
 import ParallaxBackground from './components/ParallaxBackground';
 import TitleAnimator from './components/TitleAnimator';
@@ -19,8 +17,6 @@ const AnimatedRoutes = () => {
     <AnimatePresence mode="wait">
       <Routes location={location} key={location.pathname}>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
       </Routes>
     </AnimatePresence>
   );
