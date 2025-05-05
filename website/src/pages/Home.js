@@ -2,8 +2,6 @@ import React from 'react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import TwitchEmbed from '../components/TwitchEmbed';
-import TwitterFeed from '../components/TwitterFeed';
-import GitHubProjects from '../components/GitHubProjects';
 import CurrentlyWorkingOn from '../components/CurrentlyWorkingOn';
 import PageWrapper from '../components/PageWrapper';
 
@@ -23,8 +21,6 @@ const Home = () => {
         <Header />
         <section style={sectionStyle}><TwitchEmbed /></section>
         <section style={sectionStyle}><CurrentlyWorkingOn /></section>
-        <section style={sectionStyle}><TwitterFeed /></section>
-        <section style={sectionStyle}><GitHubProjects /></section>
         <Footer />
       </div>
     </PageWrapper>
