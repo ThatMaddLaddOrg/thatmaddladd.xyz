@@ -73,6 +73,7 @@ const CurrentlyWorkingOn = () => {
             Building immersive FiveM systems & scripts in a serious RP environment.
           </p>
         </div>
+
         <div style={cardStyle}>
           <h3 style={roleStyle}>
             <i className="fas fa-shield-alt" style={iconStyle}></i>
@@ -82,6 +83,7 @@ const CurrentlyWorkingOn = () => {
             Helping manage the Schedule I community — a chaotic drug empire sim.
           </p>
         </div>
+
         <div style={cardStyle}>
           <h3 style={roleStyle}>
             <i className="fas fa-ticket-alt" style={iconStyle}></i>
