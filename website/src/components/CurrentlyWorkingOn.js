@@ -64,6 +64,15 @@ const CurrentlyWorkingOn = () => {
         Current Work
       </h2>
       <div style={cardListStyle}>
+      <div style={cardStyle}>
+          <h3 style={roleStyle}>
+            <i className="fas fa-flask" style={iconStyle}></i>
+            Head Developer @ <a href="https://discord.gg/free2rp" target="_blank" rel="noreferrer" style={linkStyle}>Free2RP</a>
+          </h3>
+          <p style={descStyle}>
+            Building immersive FiveM systems & scripts in a serious RP environment.
+          </p>
+        </div>
         <div style={cardStyle}>
           <h3 style={roleStyle}>
             <i className="fas fa-shield-alt" style={iconStyle}></i>
@@ -73,17 +82,6 @@ const CurrentlyWorkingOn = () => {
             Helping manage the Schedule I community — a chaotic drug empire sim.
           </p>
         </div>
-
-        <div style={cardStyle}>
-          <h3 style={roleStyle}>
-            <i className="fas fa-flask" style={iconStyle}></i>
-            Trial Developer @ <a href="https://discord.gg/jJAPtcypPd" target="_blank" rel="noreferrer" style={linkStyle}>Free2RP</a>
-          </h3>
-          <p style={descStyle}>
-            Building immersive FiveM systems & scripts in a serious RP environment.
-          </p>
-        </div>
-
         <div style={cardStyle}>
           <h3 style={roleStyle}>
             <i className="fas fa-ticket-alt" style={iconStyle}></i>
